@@ -86,9 +86,46 @@
 }
 
 @media (max-width: 1200px) {
-  .ball-1,
-  .ball-2,
-  .ball-3,
+  .ball-1 {
+    left: 29px;
+    top: 460px;
+    width: 43px;
+    height: 43px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+    animation: none;
+    animation-timing-function: none;
+  }
+
+  .ball-2 {
+    left: 258px;
+    top: 107px;
+    width: 259px;
+    height: 259px;
+    background: #833AB4;
+    opacity: 0.8;
+    filter: blur(196px);
+    box-shadow: none;
+    backdrop-filter: none;
+    animation: none;
+    animation-timing-function: none;
+  }
+
+  .ball-3 {
+    left: -55px;
+    top: 241px;
+    width: 211px;
+    height: 210px;
+    background: #961A1A;
+    opacity: 0.8;
+    filter: blur(196px);
+    box-shadow: none;
+    backdrop-filter: none;
+    animation: none;
+    animation-timing-function: none;
+  }
+
   .ball-4 {
     display: none;
   }
