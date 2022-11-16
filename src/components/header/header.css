@@ -50,3 +50,33 @@
 .socials > img {
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+  .header {
+    height: 55px;
+    margin: 0;
+  }
+  
+  .logo,
+  .logo_subtitle,
+  .phone-number,
+  .socials {
+    display: none;
+  }
+  
+  .header-nav {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .header-nav_link {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-transform: uppercase;
+  }
+
+  .header-nav_link:last-child {
+    display: none;
+  }
+}
