@@ -15,7 +15,7 @@
 .logo_subtitle {
   width: 165px;
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  color: var(--white);
   font-size: 10px;
   font-weight: 300;
   line-height: 12px;
@@ -34,11 +34,17 @@
   text-decoration: none;
 }
 
+.phone-number {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
 .socials {
   display: flex;
   justify-content: space-between;
   width: 120px;
-  margin-left: 20px;
+  margin-left: 18px;
 }
 
 .socials > img {
