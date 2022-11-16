@@ -20,7 +20,8 @@ body {
   color: var(--white);
 }
 
-.app-container {
+.app {
+  position: relative;
   width: 1140px;
   margin: 0 auto;
 }

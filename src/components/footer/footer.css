@@ -61,6 +61,10 @@
   margin: 21px 0;
 }
 
+.footer_socials > img {
+  cursor: pointer;
+}
+
 .footer_address {
   font-size: 16px;
   font-weight: 400;
@@ -80,6 +84,7 @@
 
 .footer_rights > a {
   margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .footer_rights__link {

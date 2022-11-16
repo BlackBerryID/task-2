@@ -2,15 +2,15 @@ import './app.css';
 import { Header } from '../components/header';
 import { Main } from '../components/main';
 import { Footer } from '../components/footer';
+import { Balls } from '../components/balls';
 
 function App() {
   return (
     <div className='app'>
-      <div className="app-container">
-        <Header />
-        <Main />
-        <Footer />
-      </div>
+      <Header />
+      <Main />
+      <Footer />
+      <Balls />
     </div>
   );
 }
