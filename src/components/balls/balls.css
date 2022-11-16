@@ -84,3 +84,12 @@
     top: 570px;
   }
 }
+
+@media (max-width: 1200px) {
+  .ball-1,
+  .ball-2,
+  .ball-3,
+  .ball-4 {
+    display: none;
+  }
+}

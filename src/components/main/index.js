@@ -52,6 +52,10 @@ export const Main = () => {
               использования CRM
             </p>
           </div>
+          <div className="main-right_info__mobile-item">Skype аудит</div>
+          <div className="main-right_info__mobile-item">30 виджетов</div>
+          <div className="main-right_info__mobile-item">Dashboard</div>
+          <div className="main-right_info__mobile-item">Месяц аmoCRM</div>
         </div>
         <button className="main-right_btn">Получить консультацию</button>
       </div>
