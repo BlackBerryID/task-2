@@ -19,7 +19,7 @@ export const Footer = () => {
             <a href="#" className="footer_link">Услуги</a>
             <a href="#" className="footer_link">Виджеты</a>
             <a href="#" className="footer_link">Интеграции</a>
-            <a href="#" className="footer_link">Наши клиенты</a>
+            <a href="#" className="footer_link">Наши&nbsp;клиенты</a>
           </div>
           <div className="footer_middle__right">
             <a href="#" className="footer_link">Кейсы</a>

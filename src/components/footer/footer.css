@@ -90,3 +90,77 @@
 .footer_rights__link {
   color: var(--white);
 }
+
+@media (max-width: 1200px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    height: 615px;
+    padding-top: 1px;
+  }
+  
+  .footer_middle {
+    margin-right: 0;
+    margin-top: -42px;
+  }
+  
+  .footer_title {
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--grey);
+    margin-bottom: 10px;
+  }
+  
+  .footer_link {
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+    margin-top: 10px;
+  }
+
+  .footer_middle__right .footer_link:nth-child(2) {
+    order: -1;
+  }
+  
+  .footer_right {
+    position: relative;
+    top: -42px;
+    text-align: left;
+  }
+
+  .footer_phone-number {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+  
+  .footer_socials {
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+    align-self: flex-start;
+    margin: 19px 0 19px 5px;
+  }
+  
+  .footer_socials > img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .footer_address {
+    position: relative;
+    top: -18px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .footer_rights {
+    position: relative;
+    top: -38px;
+  }
+}
